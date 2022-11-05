@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>BlackJack | Nabil ASHAIB</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="max-width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row p-0">
+                <div class="col-sm">
+                    <h1 id="title">BlackJack</h1>
+                    <p id="message-el">Want to play a round ?</p>
+                    <p id="cards-el">Cards : </p>
+                    <p id="sum-el">Total : </p>
+                    <div id="game-buttons">
+                        <button onclick="startGame()" id="start-game">START GAME</button><br>
+                        <button onclick="newCard()" id="new-card">NEW CARD</button>
+                    </div>
+                    <p id="player-el"></p>
+                </div>
+            
+                <div class="col-sm">
+                    <img src="cards.png" id="cards-img">
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
